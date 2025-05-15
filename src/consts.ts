@@ -27,7 +27,7 @@ const MULTICALLS = {
 };
 
 export const PENDLE_TREASURY = '0xc328dfcd2c8450e2487a91daa9b75629075b7a43';
-export const MULTICALL_BATCH_SIZE = 1000;
+export const MULTICALL_BATCH_SIZE = 100;
 export const _1E18 = ethers.BigNumber.from(10).pow(18);
 export const PROVIDER = new ethers.providers.JsonRpcProvider(
   RPCS[config.CHAIN]
